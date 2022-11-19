@@ -12,6 +12,7 @@ c.SetEnum(Elems.server);
 if(c.GetEnum() is Elems)
 {
     Elems test1 = (Elems)c.GetEnum();
+    bool val = test1 == Elems.server;
     Console.WriteLine(test1);
 }
 //
